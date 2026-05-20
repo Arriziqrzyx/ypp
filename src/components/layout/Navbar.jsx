@@ -74,74 +74,7 @@ export function Navbar() {
         <Container>
           <div className="h-[82px] md:h-[88px] flex items-center justify-between">
             {/* LOGO */}
-            <Link
-              to="/"
-              className="flex items-center gap-3 relative z-[60] group"
-              onClick={() =>
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                })
-              }
-            >
-              <img
-                src={logo}
-                alt="Yuritech Putra Perkasa"
-                className="
-                  h-9
-                  md:h-10
-                  w-auto
-                  object-contain
-                  transition-transform
-                  duration-300
-                  group-hover:scale-[1.02]
-                "
-              />
-
-              <div className="flex flex-col">
-                <span
-                  className={cn(
-                    `
-                      font-heading
-                      font-black
-                      uppercase
-                      leading-none
-                      tracking-[0.03em]
-                      transition-colors
-                      duration-300
-                      text-[1.45rem]
-                      md:text-[1.6rem]
-                    `,
-                    isScrolled || mobileMenuOpen
-                      ? "text-dark-bg"
-                      : "text-white"
-                  )}
-                >
-                  Yuritech
-                </span>
-
-                <span
-                  className={cn(
-                    `
-                      font-heading
-                      font-semibold
-                      uppercase
-                      tracking-[0.24em]
-                      mt-1
-                      text-[10px]
-                      md:text-[11px]
-                      transition-colors
-                      duration-300
-                    `,
-                    isScrolled || mobileMenuOpen
-                      ? "text-industrial-blue"
-                      : "text-white/75"
-                  )}
-                >
-                  Putra Perkasa
-                </span>
-              </div>
-            </Link>
+            <Link to="/" className="flex items-center gap-3 group z-50" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} > <img src={logo} alt="Yuritech Putra Perkasa" className="h-10 w-auto object-contain" /> <div className="flex flex-col"> <span className={cn("font-heading font-bold text-2xl tracking-[0.05em] uppercase leading-none transition-colors duration-300", isScrolled ? "text-dark-bg" : "text-white")}> Yuritech </span> <span className={cn("font-heading font-semibold text-xs tracking-[0.2em] uppercase mt-1 transition-colors duration-300", isScrolled ? "text-industrial-blue" : "text-white/80")}> Putra Perkasa </span> </div> </Link>
 
             {/* DESKTOP NAV */}
             <nav className="hidden lg:flex items-center gap-8">
