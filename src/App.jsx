@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ScrollToTop } from './components/layout/ScrollToTop';
 import { Layout } from './components/layout/Layout';
 import { Home } from './pages/Home';
@@ -17,6 +17,8 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/projects" element={<Projects />} />
+          {/* Wildcard Fallback Redirect */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Layout>
       <Analytics />

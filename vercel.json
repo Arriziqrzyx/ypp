@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/cgi-sys/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/gallery/:path*",
       "destination": "/projects",
       "permanent": true
@@ -11,7 +16,17 @@
       "permanent": true
     },
     {
+      "source": "/our-product/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
       "source": "/flanges/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/flange/:path*",
       "destination": "/products",
       "permanent": true
     },
@@ -21,7 +36,17 @@
       "permanent": true
     },
     {
+      "source": "/valve/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
       "source": "/gasket/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/gaskets/:path*",
       "destination": "/products",
       "permanent": true
     },
@@ -31,7 +56,17 @@
       "permanent": true
     },
     {
+      "source": "/instrument/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
       "source": "/bolt-nuts/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/bolt-nut/:path*",
       "destination": "/products",
       "permanent": true
     },
@@ -41,30 +76,24 @@
       "permanent": true
     },
     {
+      "source": "/steel-structure/:path*",
+      "destination": "/projects",
+      "permanent": true
+    },
+    {
       "source": "/contact-us/:path*",
+      "destination": "/about-us",
+      "permanent": true
+    },
+    {
+      "source": "/contact/:path*",
       "destination": "/about-us",
       "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/about-us",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/projects",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/products",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/projects/:path*",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/products/:path*",
+      "source": "/((?!api|sitemap\\.xml|robots\\.txt|assets|favicon\\.ico).*)",
       "destination": "/index.html"
     }
   ]
