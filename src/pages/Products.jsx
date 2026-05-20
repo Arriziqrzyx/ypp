@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 import { Container } from "../components/ui/Container";
 import { ProductsHeroSection } from "../components/sections/products/ProductsHeroSection";
 import { ProductCategoriesSection } from "../components/sections/products/ProductCategoriesSection";
@@ -41,6 +42,11 @@ export function Products() {
 
   return (
     <main className="min-h-screen bg-off-white">
+      <Helmet>
+        <title>Industrial Products & Materials | PT. Yuritech Putra Perkasa</title>
+        <meta name="description" content="Browse our wide range of premium industrial products: valves, flanges, gaskets, fittings, pipes, structural iron, steel, instrumentation, and stud bolts from leading international brands." />
+        <link rel="canonical" href="https://yuritechpp.co.id/products" />
+      </Helmet>
       <ProductsHeroSection />
 
       <section className="py-24">
