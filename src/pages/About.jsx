@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import { AboutHeroSection } from '../components/sections/AboutHeroSection';
 import { IntroducingOurCompanySection } from '../components/sections/CompanyOverviewSection';
 import { VisionMissionSection } from '../components/sections/VisionMissionSection';
@@ -7,11 +8,12 @@ import { CertificationsSection } from '../components/sections/CertificationsSect
 import { CTASectionFinal } from '../components/sections/CTASectionFinal';
 
 export function About() {
+  const { t } = useTranslation();
   return (
     <>
       <Helmet>
-        <title>About PT. Yuritech Putra Perkasa | Industrial Supply & Construction Company</title>
-        <meta name="description" content="Learn about PT. Yuritech Putra Perkasa, incorporated in Jakarta in 2005 as a stockist, trading, supplier, and EPC contractor / construction service provider fulfilling the rapid development of diverse modern industries." />
+        <title>{t('meta.about.title')}</title>
+        <meta name="description" content={t('meta.about.description')} />
         <link rel="canonical" href="https://yuritechpp.co.id/about-us" />
       </Helmet>
       <AboutHeroSection />
@@ -20,10 +22,10 @@ export function About() {
       <ValuesSection />
       <CertificationsSection />
       <CTASectionFinal 
-        subtitle="Get in Touch"
-        title="For Inquiries and Further Information, Reach Out to Us!"
-        description=""
-        buttonText="Contact Us"
+        subtitle={t('cta.about.subtitle')}
+        title={t('cta.about.title')}
+        description={t('cta.about.description')}
+        buttonText={t('cta.about.buttonText')}
       />
     </>
   );

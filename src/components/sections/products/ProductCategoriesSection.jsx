@@ -1,7 +1,9 @@
 import { AnimatedReveal } from "../../animations/AnimatedReveal";
+import { useTranslation } from 'react-i18next';
 import { cn } from "../../../utils/cn"; // Assuming you have a cn utility, if not I'll just use template literals
 
 export function ProductCategoriesSection({ categories, activeCategoryId, onSelectCategory }) {
+  const { t } = useTranslation();
   return (
     <div className="w-full">
       {/* Section Header */}
@@ -12,7 +14,7 @@ export function ProductCategoriesSection({ categories, activeCategoryId, onSelec
             <div className="w-2 h-[2px] bg-primary-red ml-1" />
           </div>
           <h2 className="font-heading font-bold text-industrial-blue text-3xl md:text-4xl uppercase tracking-tight">
-            Product Categories
+            {t('products.categories.title')}
           </h2>
           <div className="flex items-center">
             <div className="w-2 h-[2px] bg-primary-red mr-1" />
@@ -20,7 +22,7 @@ export function ProductCategoriesSection({ categories, activeCategoryId, onSelec
           </div>
         </div>
         <p className="font-body text-dark-bg/60 max-w-2xl mx-auto">
-          Select a category below to explore our comprehensive range of high-performance industrial materials and specifications.
+          {t('products.categories.subtitle')}
         </p>
       </div>
 
@@ -56,10 +58,10 @@ export function ProductCategoriesSection({ categories, activeCategoryId, onSelec
                 {/* Title Left */}
                 <div className="relative z-10 flex-1 pr-4">
                   <h3 className={`font-heading font-bold uppercase tracking-wider text-[11px] sm:text-sm md:text-base transition-colors duration-300 ${isActive ? 'text-industrial-blue' : 'text-dark-bg group-hover:text-industrial-blue'}`}>
-                    {category.title}
+                    {t(`products.categories.items.${category.id}.title`)}
                   </h3>
                   <span className="hidden sm:inline-block mt-2 font-body text-xs text-dark-bg/50 uppercase tracking-[0.2em]">
-                    View Details
+                    {t('products.categories.viewDetails')}
                   </span>
                 </div>
 
@@ -71,7 +73,7 @@ export function ProductCategoriesSection({ categories, activeCategoryId, onSelec
                   {category.mainImage && (
                     <img
                       src={category.mainImage}
-                      alt={category.title}
+                      alt={t(`products.categories.items.${category.id}.title`)}
                       className="w-full h-full object-contain drop-shadow-md mix-blend-multiply"
                     />
                   )}

@@ -4,10 +4,12 @@ import { SectionTitle } from '../ui/SectionTitle';
 import { Card } from '../ui/Card';
 import { AnimatedReveal } from '../animations/AnimatedReveal';
 import { Button } from '../ui/Button';
+import { useTranslation } from 'react-i18next';
 import { projectsData } from '../../data/projectsData';
 
 export function ServicesSection() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   // Get up to 3 projects for the home page showcase
   const featuredProjects = projectsData.slice(0, 3);
 
@@ -17,8 +19,8 @@ export function ServicesSection() {
         <AnimatedReveal>
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <SectionTitle
-              title="Featured Projects"
-              subtitle="What We Do?"
+              title={t('projects.list.featured')}
+              subtitle={t('projects.list.whatWeDo')}
               className="mb-0"
             />
             <Button
@@ -26,7 +28,7 @@ export function ServicesSection() {
               variant="outline"
               className="hidden md:inline-flex border-dark-bg/20 text-dark-bg hover:bg-dark-bg hover:text-off-white cursor-pointer"
             >
-              View All Projects
+              {t('projects.list.viewAll')}
             </Button>
           </div>
         </AnimatedReveal>
@@ -36,7 +38,7 @@ export function ServicesSection() {
             <AnimatedReveal key={project.id} delay={0.2 * (index + 1)}>
               <Card
                 imageSrc={project.images[0]}
-                imageAlt={project.title}
+                imageAlt={t(`projects.list.items.${project.id}.title`)}
                 className="h-full flex flex-col bg-white border-light-gray group-hover:border-industrial-blue transition-colors duration-300 cursor-pointer"
                 onClick={() => {
                   navigate('/projects', { state: { activeProjectId: project.id } });
@@ -45,18 +47,18 @@ export function ServicesSection() {
               >
                 <div className="flex-grow">
                   <div className="text-xs font-heading font-bold text-industrial-blue uppercase tracking-widest mb-3">
-                    {project.location}
+                    {t(`projects.list.items.${project.id}.location`)}
                   </div>
                   <h3 className="text-lg font-heading font-bold text-dark-bg mb-4 uppercase tracking-wide line-clamp-3">
-                    {project.title}
+                    {t(`projects.list.items.${project.id}.title`)}
                   </h3>
                   <p className="text-dark-bg/70 leading-relaxed text-sm mb-6 line-clamp-2">
-                    {project.description}
+                    {t(`projects.list.items.${project.id}.description`)}
                   </p>
                 </div>
                 <div className="mt-auto pt-4 border-t border-light-gray/50">
                   <a className="inline-flex items-center text-industrial-blue font-heading font-semibold text-xs uppercase tracking-widest group-hover/link:text-dark-bg transition-colors">
-                    Explore Details
+                    {t('projects.list.explore')}
                     <span className="ml-2 transform group-hover/link:translate-x-1 transition-transform">→</span>
                   </a>
                 </div>
@@ -71,7 +73,7 @@ export function ServicesSection() {
             variant="outline"
             className="w-full border-dark-bg/20 text-dark-bg hover:bg-dark-bg hover:text-off-white"
           >
-            View All Projects
+            {t('projects.list.viewAll')}
           </Button>
         </AnimatedReveal>
       </Container>

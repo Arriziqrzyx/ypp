@@ -1,0 +1,621 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "projects": "Projects",
+    "products": "Products",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "eyebrow": "Leading the Future",
+    "title": "Empowering Industries Through Integrated EPC, Industrial Supply, and Construction Solutions for Geothermal, Petrochemical, Oil & Gas, and Mining Sectors.",
+    "desc": "Providing engineering excellence with uncompromising standards. General supplies and stockist for pipes, fittings, flanges, and instruments.",
+    "exploreProjects": "Explore Projects",
+    "ourProducts": "Our Products",
+    "scroll": "Scroll to Explore"
+  },
+  "meta": {
+    "home": {
+      "title": "PT. Yuritech Putra Perkasa | Industrial Stockist, Supplier & EPC Contractor",
+      "description": "PT. Yuritech Putra Perkasa is a trusted industrial supplier, stockist, and EPC contractor since 2005. Supplying high-quality industrial valves, flanges, gaskets, fittings, pipes, and steel materials in Jakarta and across Indonesia."
+    },
+    "about": {
+      "title": "About PT. Yuritech Putra Perkasa | Industrial Supply & Construction Company",
+      "description": "Learn about PT. Yuritech Putra Perkasa, incorporated in Jakarta in 2005 as a stockist, trading, supplier, and EPC contractor / construction service provider fulfilling the rapid development of diverse modern industries."
+    },
+    "products": {
+      "title": "Industrial Products & Materials | PT. Yuritech Putra Perkasa",
+      "description": "Browse our wide range of premium industrial products: valves, flanges, gaskets, fittings, pipes, structural iron, steel, instrumentation, and stud bolts from leading international brands."
+    },
+    "projects": {
+      "title": "Our Projects | PT. Yuritech Putra Perkasa",
+      "description": "Explore our featured projects and proven track record in EPC contracting and industrial construction services across Indonesia."
+    }
+  },
+  "footer": {
+    "description": "Engineering, Procurement & Construction Solutions for Geothermal, Petrochemical, Oil & Gas, and Mining Sectors.",
+    "headOffice": "Head Office",
+    "contact": "Contact",
+    "emailAddress": "Email Address",
+    "officeLocation": "Office Location",
+    "jakartaHeadquarters": "Jakarta Headquarters",
+    "copyright": "© {{year}} Yuritech Putra Perkasa — All Rights Reserved"
+  },
+  "about": {
+    "hero": {
+      "subtitle": "About Us",
+      "title": "Company Overview",
+      "description": "PT. YURITECH PUTRA PERKASA was incorporated on Jakarta established since year on 2005 as an Stockiest, Supplier, Trading & EPC Contractor / Construction Services. We fulfill any rapid development of diversed modern industries."
+    },
+    "overview": {
+      "subtitle": "Introducing Our Company",
+      "title": "PT. Yuritech Putra Perkasa",
+      "p1": "PT. Yuritech Putra Perkasa was incorporated on Jakarta established since year on 2005 as an Stockiest, Supplier, Trading & EPC Contractor/ Construction Services to fulfill any rapid development of diversed modern industries (Geothermal, Petrochemical, Oil & Gas, Industrial Supplies and Construction Services (EPC Contractor) an ever increasing needs for industrial plants.",
+      "p2": "PT. Yuritech Putra Perkasa not just an ordinary Stockist & Supplier company. The customer satisfactory and prompt delivery are our first policy. providing materials that are need on a Quick or Emergency requirements.",
+      "p3": "We strongly believe that we would be qualified as a good business partners of your respectable firm and would have a change to serve you with competitive cost/price and best quality product.",
+      "p4": "The goals is we strive efficiency in overall management and services system to ensure a reduced cost and satisfactory service for all our customers.",
+      "p5": "We committed to “By supplying better quality to fulfill increasingly diversified demands”, we dedicate ourselves to development of economical growth and improvement of national living standards.",
+      "p6": "We could support any industrial needs and provides all areas of industry with our stocks of high quality of many materials such as Pipes, Fittings, Flanges, Valves, Instrument Fittings / Controls and Steel Structures with reasonable best price.",
+      "p7": "We do also variety experienced services in construction and installation such as Assembling Interchange Piping, Tie-In/Hot Tapping Connection, Build the Road, Civil Works in Pipeline Supports, Insulation the Pipeline, etc. We welcome the opportunity to resolve difficult supply problems as well as"
+    },
+    "vision": {
+      "subtitle": "Our Vision",
+      "desc": "Delivering Trusted Local Content Solutions for Indonesia’s Geothermal, Oil & Gas, Power, Manufacturing, and Industrial Sectors."
+    },
+    "mission": {
+      "subtitle": "Our Mission",
+      "m1": "To deliver high-quality EPC (Engineering, Procurement, and Construction) services that meet client expectations.",
+      "m2": "To prioritize safety, efficiency, and sustainability in every project we undertake.",
+      "m3": "To foster a culture of continuous improvement, innovation, and professional growth for all employees."
+    },
+    "values": {
+      "subtitle": "Our Values",
+      "title": "The principles that drive our success.",
+      "desc": "We don't just supply materials; we deliver excellence. Our values are the DNA of our company, guiding every decision, partnership, and project we undertake.",
+      "items": {
+        "quality": {
+          "title": "Uncompromising Quality",
+          "desc": "We source and deliver only the highest grade materials, ensuring unmatched durability and safety."
+        },
+        "customer": {
+          "title": "Customer Obsession",
+          "desc": "Your success is our priority. We are committed to prompt delivery and exceeding expectations at every turn."
+        },
+        "agile": {
+          "title": "Agile Execution",
+          "desc": "In a fast-paced industry, we adapt quickly to resolve complex supply chain issues and emergency needs."
+        },
+        "integrity": {
+          "title": "Integrity & Trust",
+          "desc": "We build lasting partnerships through radical transparency, competitive pricing, and unwavering reliability."
+        },
+        "operational": {
+          "title": "Operational Excellence",
+          "desc": "Driven by expertise, our highly trained professionals execute complex construction services flawlessly."
+        },
+        "growth": {
+          "title": "Sustainable Growth",
+          "desc": "Dedicated to driving economic progress and improving national living standards through responsible practices."
+        }
+      }
+    }
+  },
+  "projects": {
+    "hero": {
+      "subtitle": "Our Track Record",
+      "title": "Featured Projects",
+      "description": "A showcase of our extensive engineering, procurement, and construction (EPC) portfolio. We consistently deliver high-quality industrial solutions across Indonesia."
+    },
+    "list": {
+      "subtitle": "Project Portfolio",
+      "description": "Explore our diverse range of engineering, procurement, and construction projects. Click on any project to view detailed specifications and galleries.",
+      "featured": "Featured Projects",
+      "whatWeDo": "What We Do?",
+      "viewAll": "View All Projects",
+      "explore": "Explore Details",
+      "items": {
+        "1": {
+          "title": "Procurement of Piping Installation Services KMJ-30, KMJ 39, KMJ-A9(KMJ90)&KMJ-A4(KMJ91)",
+          "location": "PT PGE Kamojang Area",
+          "description": "Construction services for pipeline installation including hot tapping and line stopping, including supervision, inspection, and documentation."
+        },
+        "2": {
+          "title": "Procurement of Access Road Repair Services for Ulubelu Area",
+          "location": "PT PGE Ulubelu Area",
+          "description": "Access road improvement services for the Ulubelu Area, including material procurement, civil work, road construction, testing, and documentation."
+        },
+        "3": {
+          "title": "Piping Work for Pipeline Route from Well UBL B-8 to Cluster B Header Line",
+          "location": "PT PGE Ulubelu Area",
+          "description": "Pipeline construction services from well UBL B-8 to the Cluster B Header Line, including material procurement, civil work, piping installation, testing, and documentation."
+        },
+        "4": {
+          "title": "Procurement of Welding Services for Production Test Facilities and Water Pipe Drilling on a Call of Order Basis for 2 Years",
+          "location": "PT PGE HQ",
+          "description": "Construction services for production testing facilities and water pipeline drilling with a call-of-order basis for 2 years, including supervision, inspection, and documentation."
+        }
+      }
+    },
+    "modal": {
+      "details": "Project Details",
+      "close": "Close",
+      "photo": "PHOTO",
+      "location": "Location",
+      "contractNo": "Contract No.",
+      "period": "Period",
+      "description": "Description",
+      "prev": "Previous photo",
+      "next": "Next photo",
+      "viewThumb": "View photo {{index}}"
+    }
+  },
+  "products": {
+    "hero": {
+      "subtitle": "Our Solutions",
+      "title": "Products & Materials",
+      "description": "We provide a comprehensive range of premium industrial components including valves, flanges, fittings, and instruments to support critical engineering operations worldwide.",
+      "standard": "Material Standard",
+      "specification": "Material Specification"
+    },
+    "categories": {
+      "title": "Product Categories",
+      "subtitle": "Select a category below to explore our comprehensive range of high-performance industrial materials and specifications.",
+      "viewDetails": "View Details",
+      "items": {
+        "valve": {
+          "title": "Valves",
+          "materials": "Stainless Steel, Carbon Steel, Brass, Bronze, Cast Iron, Ductile Iron, Forged Steel, etc.",
+          "specifications": "Flanges, Screw, Socket Weld, Butt Weld",
+          "classRatings": "All Class Rating Were Available",
+          "brands": "Arita Valves, GLT, Shoritsu, KITZ, KTM, KVC, Fisher, Kokai, Crosby",
+          "types": {
+            "actuated-valve": {
+              "title": "Actuated Valve",
+              "description": "Premium quality Actuated Valve for industrial applications."
+            },
+            "ball-valve": {
+              "title": "Ball Valve",
+              "description": "Premium quality Ball Valve for industrial applications."
+            },
+            "bellow-sealed-globe-valve": {
+              "title": "Bellow Sealed Globe Valve",
+              "description": "Premium quality Bellow Sealed Globe Valve for industrial applications."
+            },
+            "bleed-valve": {
+              "title": "Bleed Valve",
+              "description": "Premium quality Bleed Valve for industrial applications."
+            },
+            "butterfly-valve": {
+              "title": "Butterfly Valve",
+              "description": "Premium quality Butterfly Valve for industrial applications."
+            },
+            "check-valve": {
+              "title": "Check Valve",
+              "description": "Premium quality Check Valve for industrial applications."
+            },
+            "dual-check-valve": {
+              "title": "Dual Check Valve",
+              "description": "Premium quality Dual Check Valve for industrial applications."
+            },
+            "gate-valve": {
+              "title": "Gate Valve",
+              "description": "Premium quality Gate Valve for industrial applications."
+            },
+            "globe-valve": {
+              "title": "Globe Valve",
+              "description": "Premium quality Globe Valve for industrial applications."
+            },
+            "knife-gate-valve": {
+              "title": "Knife Gate Valve",
+              "description": "Premium quality Knife Gate Valve for industrial applications."
+            },
+            "needle-valve": {
+              "title": "Needle Valve",
+              "description": "Premium quality Needle Valve for industrial applications."
+            },
+            "steam-trap-valve": {
+              "title": "Steam Trap Valve",
+              "description": "Premium quality Steam Trap Valve for industrial applications."
+            }
+          }
+        },
+        "flange": {
+          "title": "Flanges",
+          "materials": "Stainless Steel, Carbon Steel, Brass, Bronze, Cast Iron, Ductile Iron, Forged Steel, etc.",
+          "specifications": "Raised Face, Flat Face, Lapped Joint Face, Large Male-Female, Small Male-Female, Ring Joint, etc.",
+          "classRatings": "All Class Rating Were Available",
+          "brands": "Various Leading Brands",
+          "types": {
+            "adaptor-flange": {
+              "title": "Adaptor Flange",
+              "description": "Premium quality Adaptor Flange for industrial applications."
+            },
+            "blind-flange": {
+              "title": "Blind Flange",
+              "description": "Premium quality Blind Flange for industrial applications."
+            },
+            "lap-joiint-flange": {
+              "title": "Lap Joiint Flange",
+              "description": "Premium quality Lap Joiint Flange for industrial applications."
+            },
+            "pvc-flange": {
+              "title": "Pvc Flange",
+              "description": "Premium quality Pvc Flange for industrial applications."
+            },
+            "reducer-flange": {
+              "title": "Reducer Flange",
+              "description": "Premium quality Reducer Flange for industrial applications."
+            },
+            "slip-on-flange": {
+              "title": "Slip On Flange",
+              "description": "Premium quality Slip On Flange for industrial applications."
+            },
+            "socket-welded-flange": {
+              "title": "Socket Welded Flange",
+              "description": "Premium quality Socket Welded Flange for industrial applications."
+            },
+            "threaded-flange": {
+              "title": "Threaded Flange",
+              "description": "Premium quality Threaded Flange for industrial applications."
+            },
+            "welded-neck-flange": {
+              "title": "Welded Neck Flange",
+              "description": "Premium quality Welded Neck Flange for industrial applications."
+            }
+          }
+        },
+        "gasket": {
+          "title": "Gaskets",
+          "materials": "PTFE, Graphite, Rubber, Non-Asbestos, Spiral Wound, Ring Joint",
+          "specifications": "ASME B16.20, EN 1514, Custom Specs",
+          "classRatings": "From 150# to 2500#",
+          "brands": "Flexitallic, Klinger, Garlock",
+          "types": {
+            "asbestos-gasket": {
+              "title": "Asbestos Gasket",
+              "description": "Premium quality Asbestos Gasket for industrial applications."
+            },
+            "neoprene-rubber-sheet-gasket": {
+              "title": "Neoprene Rubber Sheet Gasket",
+              "description": "Premium quality Neoprene Rubber Sheet Gasket for industrial applications."
+            },
+            "orifice-gasket": {
+              "title": "Orifice Gasket",
+              "description": "Premium quality Orifice Gasket for industrial applications."
+            },
+            "ring-joint-gasket": {
+              "title": "Ring Joint Gasket",
+              "description": "Premium quality Ring Joint Gasket for industrial applications."
+            },
+            "rubber-gasket": {
+              "title": "Rubber Gasket",
+              "description": "Premium quality Rubber Gasket for industrial applications."
+            },
+            "spiral-wound-gasket": {
+              "title": "Spiral Wound Gasket",
+              "description": "Premium quality Spiral Wound Gasket for industrial applications."
+            }
+          }
+        },
+        "bolt": {
+          "title": "Screws, Nuts & Bolts",
+          "materials": "Stainless Steel, Carbon Steel, Alloy, Monel, Inconel",
+          "specifications": "ASTM, ASME, ANSI, DIN, JIS",
+          "classRatings": "Various Grades Available",
+          "brands": "B7, L7, B8, B8M Stud Bolts",
+          "types": {
+            "dynabolt": {
+              "title": "Dynabolt",
+              "description": "Premium quality Dynabolt for industrial applications."
+            },
+            "hex-bolt": {
+              "title": "Hex Bolt",
+              "description": "Premium quality Hex Bolt for industrial applications."
+            },
+            "hex-nut": {
+              "title": "Hex Nut",
+              "description": "Premium quality Hex Nut for industrial applications."
+            },
+            "screw": {
+              "title": "Screw",
+              "description": "Premium quality Screw for industrial applications."
+            },
+            "studbolt": {
+              "title": "Studbolt",
+              "description": "Premium quality Studbolt for industrial applications."
+            },
+            "u-bolt": {
+              "title": "U_bolt",
+              "description": "Premium quality U_bolt for industrial applications."
+            }
+          }
+        },
+        "instrument": {
+          "title": "Instruments",
+          "materials": "Various",
+          "specifications": "Pressure, Temperature, Flow, Level Measurement",
+          "classRatings": "N/A",
+          "brands": "Wika, Rosemount, Yokogawa, Endress+Hauser",
+          "types": {
+            "air-filter-regulator": {
+              "title": "Air Filter Regulator",
+              "description": "Premium quality Air Filter Regulator for industrial applications."
+            },
+            "pilot-valve": {
+              "title": "Pilot Valve",
+              "description": "Premium quality Pilot Valve for industrial applications."
+            },
+            "temperature-switch": {
+              "title": "Temperature Switch",
+              "description": "Premium quality Temperature Switch for industrial applications."
+            },
+            "thermowell": {
+              "title": "Thermowell",
+              "description": "Premium quality Thermowell for industrial applications."
+            }
+          }
+        },
+        "fitting": {
+          "title": "Fittings",
+          "materials": "Stainless Steel, Carbon Steel, Alloy Steel",
+          "specifications": "Elbow, Tee, Reducer, Cap, Stub End",
+          "classRatings": "Sch 10 to Sch 160, XXS",
+          "brands": "Various Leading Brands",
+          "types": {
+            "back-ferrule": {
+              "title": "Back Ferrule",
+              "description": "Premium quality Back Ferrule for industrial applications."
+            },
+            "cap-fitting": {
+              "title": "Cap Fitting",
+              "description": "Premium quality Cap Fitting for industrial applications."
+            },
+            "concentric-reducer-fitting": {
+              "title": "Concentric Reducer Fitting",
+              "description": "Premium quality Concentric Reducer Fitting for industrial applications."
+            },
+            "coupling-fitting": {
+              "title": "Coupling Fitting",
+              "description": "Premium quality Coupling Fitting for industrial applications."
+            },
+            "cross-threaded-fitting": {
+              "title": "Cross Threaded Fitting",
+              "description": "Premium quality Cross Threaded Fitting for industrial applications."
+            },
+            "eccentric-reducer-fitting": {
+              "title": "Eccentric Reducer Fitting",
+              "description": "Premium quality Eccentric Reducer Fitting for industrial applications."
+            },
+            "elbow-fitting": {
+              "title": "Elbow Fitting",
+              "description": "Premium quality Elbow Fitting for industrial applications."
+            },
+            "elbow": {
+              "title": "Elbow",
+              "description": "Premium quality Elbow for industrial applications."
+            },
+            "female-adaptor-tube-to-pipe": {
+              "title": "Female Adaptor Tube To Pipe",
+              "description": "Premium quality Female Adaptor Tube To Pipe for industrial applications."
+            },
+            "female-connector": {
+              "title": "Female Connector",
+              "description": "Premium quality Female Connector for industrial applications."
+            },
+            "female-cross": {
+              "title": "Female Cross",
+              "description": "Premium quality Female Cross for industrial applications."
+            },
+            "female-elbow": {
+              "title": "Female Elbow",
+              "description": "Premium quality Female Elbow for industrial applications."
+            },
+            "front-ferrule": {
+              "title": "Front Ferrule",
+              "description": "Premium quality Front Ferrule for industrial applications."
+            },
+            "grase-fittng": {
+              "title": "Grase Fittng",
+              "description": "Premium quality Grase Fittng for industrial applications."
+            },
+            "hex-bushing-fitting": {
+              "title": "Hex Bushing Fitting",
+              "description": "Premium quality Hex Bushing Fitting for industrial applications."
+            },
+            "hex-nipple-fitting": {
+              "title": "Hex Nipple Fitting",
+              "description": "Premium quality Hex Nipple Fitting for industrial applications."
+            },
+            "hex-plug": {
+              "title": "Hex Plug",
+              "description": "Premium quality Hex Plug for industrial applications."
+            },
+            "male-adaptor-tube-to-pipe": {
+              "title": "Male Adaptor Tube To Pipe",
+              "description": "Premium quality Male Adaptor Tube To Pipe for industrial applications."
+            },
+            "male-connector": {
+              "title": "Male Connector",
+              "description": "Premium quality Male Connector for industrial applications."
+            },
+            "male-elbow": {
+              "title": "Male Elbow",
+              "description": "Premium quality Male Elbow for industrial applications."
+            },
+            "port-connector": {
+              "title": "Port Connector",
+              "description": "Premium quality Port Connector for industrial applications."
+            },
+            "reducing-adapter": {
+              "title": "Reducing Adapter",
+              "description": "Premium quality Reducing Adapter for industrial applications."
+            },
+            "reducing-elbow": {
+              "title": "Reducing Elbow",
+              "description": "Premium quality Reducing Elbow for industrial applications."
+            },
+            "round-head-plug-fitting": {
+              "title": "Round Head Plug Fitting",
+              "description": "Premium quality Round Head Plug Fitting for industrial applications."
+            },
+            "square-head-plug-fitting": {
+              "title": "Square Head Plug Fitting",
+              "description": "Premium quality Square Head Plug Fitting for industrial applications."
+            },
+            "stub-end": {
+              "title": "Stub End",
+              "description": "Premium quality Stub End for industrial applications."
+            },
+            "union-bulkhead": {
+              "title": "Union Bulkhead",
+              "description": "Premium quality Union Bulkhead for industrial applications."
+            },
+            "union-connector": {
+              "title": "Union Connector",
+              "description": "Premium quality Union Connector for industrial applications."
+            },
+            "union-cross": {
+              "title": "Union Cross",
+              "description": "Premium quality Union Cross for industrial applications."
+            },
+            "union-elbow": {
+              "title": "Union Elbow",
+              "description": "Premium quality Union Elbow for industrial applications."
+            },
+            "union-reducer": {
+              "title": "Union Reducer",
+              "description": "Premium quality Union Reducer for industrial applications."
+            },
+            "union-tee": {
+              "title": "Union Tee",
+              "description": "Premium quality Union Tee for industrial applications."
+            }
+          }
+        },
+        "pipe": {
+          "title": "Pipes",
+          "materials": "Seamless, ERW, LSAW, SSAW",
+          "specifications": "API 5L, ASTM A106, ASTM A312",
+          "classRatings": "All Schedules",
+          "brands": "Spindo, Tenaris, Nippon Steel",
+          "types": {
+            "aluminium-pipe": {
+              "title": "Aluminium Pipe",
+              "description": "Premium quality Aluminium Pipe for industrial applications."
+            },
+            "spiral-welded-pipe": {
+              "title": "Spiral Welded Pipe",
+              "description": "Premium quality Spiral Welded Pipe for industrial applications."
+            },
+            "stainless-steel-pipe": {
+              "title": "Stainless Steel Pipe",
+              "description": "Premium quality Stainless Steel Pipe for industrial applications."
+            },
+            "tubing": {
+              "title": "Tubing",
+              "description": "Premium quality Tubing for industrial applications."
+            }
+          }
+        },
+        "besi": {
+          "title": "Iron & Steel Materials",
+          "materials": "Carbon Steel, High Tensile Steel",
+          "specifications": "WF, H-Beam, Siku, Hollow, Plat, Beton",
+          "classRatings": "SNI, JIS standard",
+          "brands": "Krakatau Steel, Gunung Garuda",
+          "types": {
+            "besi-beton-polos-ulir": {
+              "title": "Plain & Deformed Rebar",
+              "description": "Premium quality Plain & Deformed Rebar for industrial applications."
+            },
+            "besi-hollow": {
+              "title": "Hollow Structural Steel",
+              "description": "Premium quality Hollow Structural Steel for industrial applications."
+            },
+            "besi-siku": {
+              "title": "Angle Steel",
+              "description": "Premium quality Angle Steel for industrial applications."
+            },
+            "besi-wide-flange-wf-": {
+              "title": "Wide Flange (WF) Steel",
+              "description": "Premium quality Wide Flange (WF) Steel for industrial applications."
+            },
+            "cnp-dan-unp": {
+              "title": "CNP & UNP Channels",
+              "description": "Premium quality CNP & UNP Channels for industrial applications."
+            },
+            "h-beam": {
+              "title": "H-Beam",
+              "description": "Premium quality H-Beam for industrial applications."
+            },
+            "plat-strip": {
+              "title": "Strip Plate",
+              "description": "Premium quality Strip Plate for industrial applications."
+            }
+          }
+        }
+      }
+    },
+    "detail": {
+      "materials": "Materials",
+      "specifications": "Specifications",
+      "classRatings": "Class Ratings",
+      "brands": "Brands",
+      "availableTypes": "Available Types",
+      "itemsCount": "{{count}} items",
+      "noVariants": "No specific variants listed for this category."
+    },
+    "modal": {
+      "details": "Product Details",
+      "description": "Description",
+      "applications": "Applications",
+      "materials": "Materials",
+      "close": "Close"
+    }
+  },
+  "certifications": {
+    "hero": {
+      "subtitle": "Our Credentials",
+      "title": "Certifications & Recognition",
+      "description": "Our commitment to safety, compliance, and operational excellence is reflected through recognized certifications and industry credentials across construction, energy, engineering, and industrial services."
+    },
+    "list": {
+      "view": "View Certificate",
+      "preview": "Official certification document preview",
+      "close": "Close",
+      "reset": "Reset",
+      "items": {
+        "1": "Nomor Induk Berusaha (NIB)",
+        "2": "NPWP",
+        "3": "Surat Izin Usaha Perdagangan (SIUP)",
+        "4": "Izin Usaha Jasa Konstruksi",
+        "5": "Kamar Dagang dan Industri (KADIN)",
+        "6": "Registered Geothermal Vendor",
+        "7": "Sertifikat Vendor Elnusa",
+        "8": "Sertifikat Vendor Geodipa",
+        "9": "Sertifikat Vendor Perkebunan",
+        "10": "Sertifikat Vendor Pertamina",
+        "11": "Sertifikat Vendor PGN",
+        "12": "Sertifikat Vendor SKK Migas"
+      }
+    }
+  },
+  "clients": {
+    "title": "Clients & Partners",
+    "subtitle": "Trusted By"
+  },
+  "cta": {
+    "home": {
+      "subtitle": "Ready to Start Your Project?",
+      "title": "Partner With Us For Your Next Industrial Expansion",
+      "description": "For inquiries and further information regarding our stockist availability, EPC services, or general supplies, reach out to our team of engineering professionals.",
+      "buttonText": "Contact Us Today"
+    },
+    "about": {
+      "subtitle": "Get in Touch",
+      "title": "For Inquiries and Further Information, Reach Out to Us!",
+      "description": "",
+      "buttonText": "Contact Us"
+    }
+  }
+}

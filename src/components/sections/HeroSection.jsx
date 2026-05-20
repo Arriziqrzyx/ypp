@@ -1,12 +1,14 @@
-import { motion } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
-import { Container } from '../ui/Container';
-import { Button } from '../ui/Button';
-import heroBg from '../../assets/hero.png';
+import { motion } from "framer-motion";
+import { ChevronDown } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { Container } from "../ui/Container";
+import { Button } from "../ui/Button";
+import heroBg from "../../assets/hero.png";
+import { useTranslation } from "react-i18next";
 
 export function HeroSection() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   return (
     <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden bg-dark-bg">
       {/* Full Background Image */}
@@ -14,7 +16,7 @@ export function HeroSection() {
         className="absolute inset-0 z-0"
         initial={{ scale: 1.05 }}
         animate={{ scale: 1 }}
-        transition={{ duration: 1.5, ease: 'easeOut' }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-dark-bg/90 via-dark-bg/60 to-transparent z-10" />
         <div className="absolute inset-0 bg-industrial-blue/10 mix-blend-multiply z-10" />
@@ -27,7 +29,6 @@ export function HeroSection() {
 
       <Container className="relative z-30 w-full">
         <div className="max-w-4xl pt-28 md:pt-20 px-1">
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -36,7 +37,7 @@ export function HeroSection() {
           >
             <div className="w-12 h-[2px] bg-primary-red" />
             <span className="inline-block uppercase tracking-[0.3em] text-white text-xs md:text-sm font-bold">
-              Leading the Future
+              {t("hero.eyebrow")}
             </span>
           </motion.div>
 
@@ -46,7 +47,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-heading font-extrabold text-white tracking-tighter uppercase leading-[1.15] mb-6 md:mb-8"
           >
-            Empowering Industries Through Integrated EPC, Industrial Supply, and Construction Solutions for Geothermal, Petrochemical, Oil & Gas, and Mining Sectors.
+            {t("hero.title")}
           </motion.h1>
 
           <motion.p
@@ -55,7 +56,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-white/80 text-sm md:text-base lg:text-lg font-body max-w-2xl mb-8 md:mb-10 border-l-2 border-industrial-blue pl-4 md:pl-6"
           >
-            Providing engineering excellence with uncompromising standards. General supplies and stockist for pipes, fittings, flanges, and instruments.
+            {t("hero.desc")}
           </motion.p>
 
           <motion.div
@@ -65,18 +66,18 @@ export function HeroSection() {
             className="flex flex-wrap gap-4 md:gap-6"
           >
             <Button
-              onClick={() => navigate('/projects')}
+              onClick={() => navigate("/projects")}
               variant="primary"
               className="bg-industrial-blue hover:bg-white hover:text-dark-bg text-white border-transparent"
             >
-              Explore Projects
+              {t("hero.exploreProjects")}
             </Button>
             <Button
-              onClick={() => navigate('/products')}
+              onClick={() => navigate("/products")}
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-dark-bg hover:border-white bg-transparent"
             >
-              Our Products
+              {t("hero.ourProducts")}
             </Button>
           </motion.div>
         </div>
@@ -90,17 +91,22 @@ export function HeroSection() {
           duration: 3,
           repeat: Infinity,
           ease: "easeInOut",
-          delay: 1
+          delay: 1,
         }}
         onClick={() => {
-          document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+          document
+            .getElementById("services")
+            ?.scrollIntoView({ behavior: "smooth" });
         }}
         className="absolute bottom-8 right-8 lg:right-12 z-30 flex-col items-center gap-2 group cursor-pointer hover:text-industrial-blue transition-colors hidden md:flex"
       >
         <span className="text-white/70 group-hover:text-industrial-blue text-xs uppercase tracking-widest font-heading font-bold transition-colors">
-          Scroll to Explore
+          {t("hero.scroll")}
         </span>
-        <ChevronDown className="text-white/70 group-hover:text-industrial-blue transition-colors" size={24} />
+        <ChevronDown
+          className="text-white/70 group-hover:text-industrial-blue transition-colors"
+          size={24}
+        />
       </motion.button>
     </section>
   );

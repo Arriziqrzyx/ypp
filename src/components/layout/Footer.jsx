@@ -1,7 +1,9 @@
 import { Container } from "../ui/Container";
 import { MapPin, Phone, Mail } from "lucide-react";
+import { useTranslation } from 'react-i18next'
 
 export function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="relative bg-[#f8f9fb] border-t border-dark-bg/8 overflow-hidden">
       {/* subtle background */}
@@ -49,7 +51,7 @@ export function Footer() {
 
             {/* description */}
             <p className="text-dark-bg/68 leading-relaxed text-sm max-w-md">
-              Engineering, Procurement & Construction Solutions for Geothermal, Petrochemical, Oil & Gas, and Mining Sectors.
+              {t('footer.description')}
             </p>
 
             {/* contact */}
@@ -66,7 +68,7 @@ export function Footer() {
 
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.2em] text-dark-bg/40 font-bold mb-1">
-                    Head Office
+                    {t('footer.headOffice')}
                   </p>
 
                   <p className="text-dark-bg/68 text-sm leading-relaxed">
@@ -88,7 +90,7 @@ export function Footer() {
 
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.2em] text-dark-bg/40 font-bold mb-1">
-                    Contact
+                    {t('footer.contact')}
                   </p>
 
                   <div className="flex flex-wrap gap-x-3 text-sm text-dark-bg/68">
@@ -99,14 +101,14 @@ export function Footer() {
                       021-62202376
                     </a>
 
-                    {/* <span className="text-dark-bg/20">/</span>
+                    <span className="text-dark-bg/20">/</span>
 
                     <a
-                      href="tel:62317674"
+                      href="tel:+6282125597520"
                       className="hover:text-industrial-blue transition-colors"
                     >
-                      62317674
-                    </a> */}
+                      +62 821-2559-7520
+                    </a>
                   </div>
                 </div>
               </div>
@@ -123,7 +125,7 @@ export function Footer() {
 
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.2em] text-dark-bg/40 font-bold mb-1">
-                    Email Address
+                    {t('footer.emailAddress')}
                   </p>
 
                   <a
@@ -144,11 +146,11 @@ export function Footer() {
           <div className="md:col-span-6 lg:col-span-6">
             <div className="mb-5">
               <p className="text-[10px] uppercase tracking-[0.24em] text-industrial-blue font-bold mb-2">
-                Office Location
+                {t('footer.officeLocation')}
               </p>
 
               <h4 className="font-heading font-bold text-dark-bg text-lg">
-                Jakarta Headquarters
+                {t('footer.jakartaHeadquarters')}
               </h4>
             </div>
 
@@ -190,8 +192,7 @@ export function Footer() {
         {/* BOTTOM BAR */}
         <div className="border-t border-dark-bg/8 py-5 text-center md:text-left">
           <p className="text-[10px] uppercase tracking-[0.2em] text-dark-bg/45">
-            © {new Date().getFullYear()} Yuritech Putra Perkasa — All Rights
-            Reserved
+            {t('footer.copyright', { year: new Date().getFullYear() })}
           </p>
         </div>
       </Container>

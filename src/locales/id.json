@@ -1,0 +1,621 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "projects": "Proyek",
+    "products": "Produk",
+    "contact": "Hubungi Kami"
+  },
+  "hero": {
+    "eyebrow": "Memimpin Masa Depan",
+    "title": "Memberdayakan Industri melalui solusi EPC terintegrasi, pasokan industri, dan konstruksi untuk sektor Panas Bumi, Petrokimia, Minyak & Gas, dan Pertambangan.",
+    "desc": "Menyediakan keunggulan rekayasa dengan standar tanpa kompromi. Penyedia umum dan stokis untuk pipa, fitting, flange, dan instrumen.",
+    "exploreProjects": "Jelajahi Proyek",
+    "ourProducts": "Produk Kami",
+    "scroll": "Gulir untuk Menjelajah"
+  },
+  "meta": {
+    "home": {
+      "title": "PT. Yuritech Putra Perkasa | Stokis Industri, Supplier & Kontraktor EPC",
+      "description": "PT. Yuritech Putra Perkasa adalah penyuplai industri terpercaya, stokis, dan kontraktor EPC sejak 2005. Menyediakan katup industri berkualitas tinggi, flensa, gasket, fiting, pipa, dan material baja di Jakarta dan seluruh Indonesia."
+    },
+    "about": {
+      "title": "Tentang PT. Yuritech Putra Perkasa | Perusahaan Pasokan Industri & Konstruksi",
+      "description": "Pelajari tentang PT. Yuritech Putra Perkasa, didirikan di Jakarta pada tahun 2005 sebagai stokis, perdagangan, supplier, dan kontraktor EPC / penyedia jasa konstruksi yang memenuhi pesatnya perkembangan berbagai industri modern."
+    },
+    "products": {
+      "title": "Produk & Material Industri | PT. Yuritech Putra Perkasa",
+      "description": "Telusuri berbagai macam produk industri premium kami: katup, flensa, gasket, fiting, pipa, besi struktural, baja, instrumentasi, dan stud bolt dari merek internasional terkemuka."
+    },
+    "projects": {
+      "title": "Proyek Kami | PT. Yuritech Putra Perkasa",
+      "description": "Jelajahi proyek unggulan kami dan rekam jejak terbukti dalam kontraktor EPC dan layanan konstruksi industri di seluruh Indonesia."
+    }
+  },
+  "footer": {
+    "description": "Solusi Engineering, Procurement & Construction untuk sektor Panas Bumi, Petrokimia, Minyak & Gas, dan Pertambangan.",
+    "headOffice": "Kantor Pusat",
+    "contact": "Kontak",
+    "emailAddress": "Alamat Email",
+    "officeLocation": "Lokasi Kantor",
+    "jakartaHeadquarters": "Kantor Pusat Jakarta",
+    "copyright": "© {{year}} Yuritech Putra Perkasa — Seluruh Hak Dilindungi"
+  },
+  "about": {
+    "hero": {
+      "subtitle": "Tentang Kami",
+      "title": "Sekilas Perusahaan",
+      "description": "PT. YURITECH PUTRA PERKASA didirikan di Jakarta sejak tahun 2005 sebagai Stokis, Supplier, Perdagangan & Kontraktor EPC / Jasa Konstruksi. Kami memenuhi setiap perkembangan pesat dari berbagai industri modern."
+    },
+    "overview": {
+      "subtitle": "Pengenalan Perusahaan",
+      "title": "PT. Yuritech Putra Perkasa",
+      "p1": "PT. Yuritech Putra Perkasa didirikan di Jakarta pada tahun 2005 sebagai Stokis, Supplier, Perdagangan & Kontraktor EPC / Jasa Konstruksi untuk memenuhi pesatnya perkembangan beragam industri modern (Panas Bumi, Petrokimia, Minyak & Gas, Pasokan Industri, dan Jasa Konstruksi (Kontraktor EPC) yang terus meningkat kebutuhannya untuk pabrik-pabrik industri.",
+      "p2": "PT. Yuritech Putra Perkasa bukan sekadar perusahaan Stokis & Supplier biasa. Kepuasan pelanggan dan pengiriman yang cepat adalah kebijakan utama kami, menyediakan material yang dibutuhkan baik untuk kebutuhan Cepat maupun Darurat (Emergency).",
+      "p3": "Kami sangat percaya bahwa kami memenuhi syarat untuk menjadi mitra bisnis yang baik bagi perusahaan Anda yang terhormat dan memiliki kesempatan untuk melayani Anda dengan biaya/harga kompetitif dan produk berkualitas terbaik.",
+      "p4": "Tujuan kami adalah berjuang demi efisiensi dalam sistem manajemen dan pelayanan secara keseluruhan guna memastikan pengurangan biaya dan layanan yang memuaskan bagi seluruh pelanggan kami.",
+      "p5": "Kami berkomitmen untuk \"Menyuplai kualitas yang lebih baik untuk memenuhi tuntutan yang semakin beragam\", kami mendedikasikan diri pada pertumbuhan ekonomi dan peningkatan standar hidup nasional.",
+      "p6": "Kami dapat mendukung setiap kebutuhan industri dan menyediakan stok material berkualitas tinggi seperti Pipa, Fiting, Flensa, Katup, Fiting Instrumen / Kontrol, dan Struktur Baja dengan harga terbaik yang wajar.",
+      "p7": "Kami juga memiliki berbagai layanan berpengalaman dalam konstruksi dan instalasi seperti Perakitan Pipa Interchange, Koneksi Tie-In / Hot Tapping, Pembangunan Jalan, Pekerjaan Sipil untuk Penyangga Pipa, Isolasi Pipa, dll. Kami menyambut baik kesempatan untuk menyelesaikan masalah pasokan yang sulit."
+    },
+    "vision": {
+      "subtitle": "Visi Kami",
+      "desc": "Menyediakan Solusi Konten Lokal Terpercaya untuk Sektor Panas Bumi, Minyak & Gas, Pembangkit Listrik, Manufaktur, dan Industri di Indonesia."
+    },
+    "mission": {
+      "subtitle": "Misi Kami",
+      "m1": "Memberikan layanan EPC (Engineering, Procurement, and Construction) berkualitas tinggi yang memenuhi ekspektasi klien.",
+      "m2": "Memprioritaskan keselamatan, efisiensi, dan keberlanjutan dalam setiap proyek yang kami jalankan.",
+      "m3": "Menumbuhkan budaya perbaikan berkelanjutan, inovasi, dan pertumbuhan profesional bagi seluruh karyawan."
+    },
+    "values": {
+      "subtitle": "Nilai-Nilai Kami",
+      "title": "Prinsip-prinsip yang mendorong kesuksesan kami.",
+      "desc": "Kami tidak sekadar memasok material; kami menghadirkan keunggulan. Nilai-nilai kami adalah DNA perusahaan, memandu setiap keputusan, kemitraan, dan proyek yang kami lakukan.",
+      "items": {
+        "quality": {
+          "title": "Kualitas Tanpa Kompromi",
+          "desc": "Kami hanya mencari dan menyediakan material kelas tertinggi, memastikan daya tahan dan keamanan yang tak terpandang."
+        },
+        "customer": {
+          "title": "Fokus pada Pelanggan",
+          "desc": "Kesuksesan Anda adalah prioritas kami. Kami berkomitmen untuk pengiriman yang cepat dan melampaui harapan di setiap kesempatan."
+        },
+        "agile": {
+          "title": "Eksekusi yang Cepat",
+          "desc": "Dalam industri yang bergerak cepat, kami beradaptasi dengan cepat untuk menyelesaikan masalah rantai pasok yang rumit dan kebutuhan darurat."
+        },
+        "integrity": {
+          "title": "Integritas & Kepercayaan",
+          "desc": "Kami membangun kemitraan yang langgeng melalui transparansi radikal, harga yang kompetitif, dan keandalan yang teguh."
+        },
+        "operational": {
+          "title": "Keunggulan Operasional",
+          "desc": "Didorong oleh keahlian, para profesional kami yang sangat terlatih melaksanakan layanan konstruksi yang kompleks secara sempurna."
+        },
+        "growth": {
+          "title": "Pertumbuhan Berkelanjutan",
+          "desc": "Didedikasikan untuk mendorong kemajuan ekonomi dan meningkatkan standar hidup nasional melalui praktik-praktik yang bertanggung jawab."
+        }
+      }
+    }
+  },
+  "projects": {
+    "hero": {
+      "subtitle": "Rekam Jejak Kami",
+      "title": "Proyek Unggulan",
+      "description": "Etalase portofolio rekayasa, pengadaan, dan konstruksi (EPC) kami yang luas. Kami secara konsisten memberikan solusi industri berkualitas tinggi di seluruh Indonesia."
+    },
+    "list": {
+      "subtitle": "Portofolio Proyek",
+      "description": "Jelajahi beragam proyek rekayasa, pengadaan, dan konstruksi kami. Klik pada proyek apa pun untuk melihat spesifikasi detail dan galeri foto.",
+      "featured": "Proyek Unggulan",
+      "whatWeDo": "Apa Yang Kami Lakukan?",
+      "viewAll": "Lihat Semua Proyek",
+      "explore": "Jelajahi Detail",
+      "items": {
+        "1": {
+          "title": "Pengadaan Jasa Instalasi Pemipaan KMJ-30, KMJ 39, KMJ-A9(KMJ90)&KMJ-A4(KMJ91)",
+          "location": "PT PGE Area Kamojang",
+          "description": "Jasa konstruksi untuk instalasi pipa termasuk hot tapping dan line stopping, termasuk pengawasan, inspeksi, dan dokumentasi."
+        },
+        "2": {
+          "title": "Pengadaan Jasa Perbaikan Jalan Akses Area Ulubelu",
+          "location": "PT PGE Area Ulubelu",
+          "description": "Layanan perbaikan jalan akses untuk Area Ulubelu, termasuk pengadaan material, pekerjaan sipil, konstruksi jalan, pengujian, dan dokumentasi."
+        },
+        "3": {
+          "title": "Pekerjaan Pemipaan Jalur Pipa dari Sumur UBL B-8 ke Jalur Header Cluster B",
+          "location": "PT PGE Area Ulubelu",
+          "description": "Jasa konstruksi pipa dari sumur UBL B-8 ke Jalur Header Cluster B, termasuk pengadaan material, pekerjaan sipil, instalasi pipa, pengujian, dan dokumentasi."
+        },
+        "4": {
+          "title": "Pengadaan Jasa Pengelasan Fasilitas Uji Produksi dan Pemboran Pipa Air dengan Basis Call of Order selama 2 Tahun",
+          "location": "PT PGE Pusat",
+          "description": "Jasa konstruksi untuk fasilitas pengujian produksi dan pengeboran pipa air dengan basis call-of-order selama 2 tahun, termasuk pengawasan, inspeksi, dan dokumentasi."
+        }
+      }
+    },
+    "modal": {
+      "details": "Detail Proyek",
+      "close": "Tutup",
+      "photo": "FOTO",
+      "location": "Lokasi",
+      "contractNo": "No. Kontrak",
+      "period": "Periode",
+      "description": "Deskripsi",
+      "prev": "Foto sebelumnya",
+      "next": "Foto berikutnya",
+      "viewThumb": "Lihat foto {{index}}"
+    }
+  },
+  "products": {
+    "hero": {
+      "subtitle": "Solusi Kami",
+      "title": "Produk & Material",
+      "description": "Kami menyediakan rangkaian lengkap komponen industri berkualitas premium termasuk katup, flensa, fiting, dan instrumen untuk mendukung operasi teknik penting di seluruh dunia.",
+      "standard": "Standar Material",
+      "specification": "Spesifikasi Material"
+    },
+    "categories": {
+      "title": "Kategori Produk",
+      "subtitle": "Pilih kategori di bawah ini untuk menjelajahi rangkaian lengkap bahan dan spesifikasi industri berkinerja tinggi kami.",
+      "viewDetails": "Lihat Detail",
+      "items": {
+        "valve": {
+          "title": "Katup (Valves)",
+          "materials": "Stainless Steel, Carbon Steel, Kuningan, Perunggu, Besi Cor, Besi Ulet, Baja Tempa, dll.",
+          "specifications": "Flensa, Sekrup, Las Soket, Las Butt",
+          "classRatings": "Semua Peringkat Kelas Tersedia",
+          "brands": "Arita Valves, GLT, Shoritsu, KITZ, KTM, KVC, Fisher, Kokai, Crosby",
+          "types": {
+            "actuated-valve": {
+              "title": "Actuated Valve",
+              "description": "Actuated Valve kualitas premium untuk aplikasi industri."
+            },
+            "ball-valve": {
+              "title": "Ball Valve",
+              "description": "Ball Valve kualitas premium untuk aplikasi industri."
+            },
+            "bellow-sealed-globe-valve": {
+              "title": "Bellow Sealed Globe Valve",
+              "description": "Bellow Sealed Globe Valve kualitas premium untuk aplikasi industri."
+            },
+            "bleed-valve": {
+              "title": "Bleed Valve",
+              "description": "Bleed Valve kualitas premium untuk aplikasi industri."
+            },
+            "butterfly-valve": {
+              "title": "Butterfly Valve",
+              "description": "Butterfly Valve kualitas premium untuk aplikasi industri."
+            },
+            "check-valve": {
+              "title": "Check Valve",
+              "description": "Check Valve kualitas premium untuk aplikasi industri."
+            },
+            "dual-check-valve": {
+              "title": "Dual Check Valve",
+              "description": "Dual Check Valve kualitas premium untuk aplikasi industri."
+            },
+            "gate-valve": {
+              "title": "Gate Valve",
+              "description": "Gate Valve kualitas premium untuk aplikasi industri."
+            },
+            "globe-valve": {
+              "title": "Globe Valve",
+              "description": "Globe Valve kualitas premium untuk aplikasi industri."
+            },
+            "knife-gate-valve": {
+              "title": "Knife Gate Valve",
+              "description": "Knife Gate Valve kualitas premium untuk aplikasi industri."
+            },
+            "needle-valve": {
+              "title": "Needle Valve",
+              "description": "Needle Valve kualitas premium untuk aplikasi industri."
+            },
+            "steam-trap-valve": {
+              "title": "Steam Trap Valve",
+              "description": "Steam Trap Valve kualitas premium untuk aplikasi industri."
+            }
+          }
+        },
+        "flange": {
+          "title": "Flensa (Flanges)",
+          "materials": "Stainless Steel, Carbon Steel, Kuningan, Perunggu, Besi Cor, Besi Ulet, Baja Tempa, dll.",
+          "specifications": "Raised Face, Flat Face, Lapped Joint Face, Large Male-Female, Small Male-Female, Ring Joint, dll.",
+          "classRatings": "Semua Peringkat Kelas Tersedia",
+          "brands": "Berbagai Merek Terkemuka",
+          "types": {
+            "adaptor-flange": {
+              "title": "Adaptor Flange",
+              "description": "Adaptor Flange kualitas premium untuk aplikasi industri."
+            },
+            "blind-flange": {
+              "title": "Blind Flange",
+              "description": "Blind Flange kualitas premium untuk aplikasi industri."
+            },
+            "lap-joiint-flange": {
+              "title": "Lap Joint Flange",
+              "description": "Lap Joint Flange kualitas premium untuk aplikasi industri."
+            },
+            "pvc-flange": {
+              "title": "Pvc Flange",
+              "description": "Pvc Flange kualitas premium untuk aplikasi industri."
+            },
+            "reducer-flange": {
+              "title": "Reducer Flange",
+              "description": "Reducer Flange kualitas premium untuk aplikasi industri."
+            },
+            "slip-on-flange": {
+              "title": "Slip On Flange",
+              "description": "Slip On Flange kualitas premium untuk aplikasi industri."
+            },
+            "socket-welded-flange": {
+              "title": "Socket Welded Flange",
+              "description": "Socket Welded Flange kualitas premium untuk aplikasi industri."
+            },
+            "threaded-flange": {
+              "title": "Threaded Flange",
+              "description": "Threaded Flange kualitas premium untuk aplikasi industri."
+            },
+            "welded-neck-flange": {
+              "title": "Welded Neck Flange",
+              "description": "Welded Neck Flange kualitas premium untuk aplikasi industri."
+            }
+          }
+        },
+        "gasket": {
+          "title": "Gasket",
+          "materials": "PTFE, Grafit, Karet, Non-Asbes, Spiral Wound, Ring Joint",
+          "specifications": "ASME B16.20, EN 1514, Spesifikasi Kustom",
+          "classRatings": "Mulai 150# hingga 2500#",
+          "brands": "Flexitallic, Klinger, Garlock",
+          "types": {
+            "asbestos-gasket": {
+              "title": "Asbestos Gasket",
+              "description": "Asbestos Gasket kualitas premium untuk aplikasi industri."
+            },
+            "neoprene-rubber-sheet-gasket": {
+              "title": "Neoprene Rubber Sheet Gasket",
+              "description": "Neoprene Rubber Sheet Gasket kualitas premium untuk aplikasi industri."
+            },
+            "orifice-gasket": {
+              "title": "Orifice Gasket",
+              "description": "Orifice Gasket kualitas premium untuk aplikasi industri."
+            },
+            "ring-joint-gasket": {
+              "title": "Ring Joint Gasket",
+              "description": "Ring Joint Gasket kualitas premium untuk aplikasi industri."
+            },
+            "rubber-gasket": {
+              "title": "Rubber Gasket",
+              "description": "Rubber Gasket kualitas premium untuk aplikasi industri."
+            },
+            "spiral-wound-gasket": {
+              "title": "Spiral Wound Gasket",
+              "description": "Spiral Wound Gasket kualitas premium untuk aplikasi industri."
+            }
+          }
+        },
+        "bolt": {
+          "title": "Sekrup, Mur & Baut",
+          "materials": "Stainless Steel, Carbon Steel, Paduan (Alloy), Monel, Inconel",
+          "specifications": "ASTM, ASME, ANSI, DIN, JIS",
+          "classRatings": "Berbagai Tingkatan Kelas Tersedia",
+          "brands": "Baut Stud B7, L7, B8, B8M",
+          "types": {
+            "dynabolt": {
+              "title": "Dynabolt",
+              "description": "Dynabolt kualitas premium untuk aplikasi industri."
+            },
+            "hex-bolt": {
+              "title": "Hex Bolt",
+              "description": "Hex Bolt kualitas premium untuk aplikasi industri."
+            },
+            "hex-nut": {
+              "title": "Hex Nut",
+              "description": "Hex Nut kualitas premium untuk aplikasi industri."
+            },
+            "screw": {
+              "title": "Screw",
+              "description": "Screw kualitas premium untuk aplikasi industri."
+            },
+            "studbolt": {
+              "title": "Studbolt",
+              "description": "Studbolt kualitas premium untuk aplikasi industri."
+            },
+            "u-bolt": {
+              "title": "U-bolt",
+              "description": "U-bolt kualitas premium untuk aplikasi industri."
+            }
+          }
+        },
+        "instrument": {
+          "title": "Instrumentasi",
+          "materials": "Berbagai Macam",
+          "specifications": "Pengukuran Tekanan, Suhu, Aliran, Tingkat Ketinggian",
+          "classRatings": "N/A",
+          "brands": "Wika, Rosemount, Yokogawa, Endress+Hauser",
+          "types": {
+            "air-filter-regulator": {
+              "title": "Air Filter Regulator",
+              "description": "Air Filter Regulator kualitas premium untuk aplikasi industri."
+            },
+            "pilot-valve": {
+              "title": "Pilot Valve",
+              "description": "Pilot Valve kualitas premium untuk aplikasi industri."
+            },
+            "temperature-switch": {
+              "title": "Temperature Switch",
+              "description": "Temperature Switch kualitas premium untuk aplikasi industri."
+            },
+            "thermowell": {
+              "title": "Thermowell",
+              "description": "Thermowell kualitas premium untuk aplikasi industri."
+            }
+          }
+        },
+        "fitting": {
+          "title": "Fiting (Fittings)",
+          "materials": "Stainless Steel, Carbon Steel, Paduan Baja",
+          "specifications": "Elbow, Tee, Reducer, Cap, Stub End",
+          "classRatings": "Sch 10 hingga Sch 160, XXS",
+          "brands": "Berbagai Merek Terkemuka",
+          "types": {
+            "back-ferrule": {
+              "title": "Back Ferrule",
+              "description": "Back Ferrule kualitas premium untuk aplikasi industri."
+            },
+            "cap-fitting": {
+              "title": "Cap Fitting",
+              "description": "Cap Fitting kualitas premium untuk aplikasi industri."
+            },
+            "concentric-reducer-fitting": {
+              "title": "Concentric Reducer Fitting",
+              "description": "Concentric Reducer Fitting kualitas premium untuk aplikasi industri."
+            },
+            "coupling-fitting": {
+              "title": "Coupling Fitting",
+              "description": "Coupling Fitting kualitas premium untuk aplikasi industri."
+            },
+            "cross-threaded-fitting": {
+              "title": "Cross Threaded Fitting",
+              "description": "Cross Threaded Fitting kualitas premium untuk aplikasi industri."
+            },
+            "eccentric-reducer-fitting": {
+              "title": "Eccentric Reducer Fitting",
+              "description": "Eccentric Reducer Fitting kualitas premium untuk aplikasi industri."
+            },
+            "elbow-fitting": {
+              "title": "Elbow Fitting",
+              "description": "Elbow Fitting kualitas premium untuk aplikasi industri."
+            },
+            "elbow": {
+              "title": "Elbow",
+              "description": "Elbow kualitas premium untuk aplikasi industri."
+            },
+            "female-adaptor-tube-to-pipe": {
+              "title": "Female Adaptor Tube To Pipe",
+              "description": "Female Adaptor Tube To Pipe kualitas premium untuk aplikasi industri."
+            },
+            "female-connector": {
+              "title": "Female Connector",
+              "description": "Female Connector kualitas premium untuk aplikasi industri."
+            },
+            "female-cross": {
+              "title": "Female Cross",
+              "description": "Female Cross kualitas premium untuk aplikasi industri."
+            },
+            "female-elbow": {
+              "title": "Female Elbow",
+              "description": "Female Elbow kualitas premium untuk aplikasi industri."
+            },
+            "front-ferrule": {
+              "title": "Front Ferrule",
+              "description": "Front Ferrule kualitas premium untuk aplikasi industri."
+            },
+            "grase-fittng": {
+              "title": "Grase Fittng",
+              "description": "Grase Fittng kualitas premium untuk aplikasi industri."
+            },
+            "hex-bushing-fitting": {
+              "title": "Hex Bushing Fitting",
+              "description": "Hex Bushing Fitting kualitas premium untuk aplikasi industri."
+            },
+            "hex-nipple-fitting": {
+              "title": "Hex Nipple Fitting",
+              "description": "Hex Nipple Fitting kualitas premium untuk aplikasi industri."
+            },
+            "hex-plug": {
+              "title": "Hex Plug",
+              "description": "Hex Plug kualitas premium untuk aplikasi industri."
+            },
+            "male-adaptor-tube-to-pipe": {
+              "title": "Male Adaptor Tube To Pipe",
+              "description": "Male Adaptor Tube To Pipe kualitas premium untuk aplikasi industri."
+            },
+            "male-connector": {
+              "title": "Male Connector",
+              "description": "Male Connector kualitas premium untuk aplikasi industri."
+            },
+            "male-elbow": {
+              "title": "Male Elbow",
+              "description": "Male Elbow kualitas premium untuk aplikasi industri."
+            },
+            "port-connector": {
+              "title": "Port Connector",
+              "description": "Port Connector kualitas premium untuk aplikasi industri."
+            },
+            "reducing-adapter": {
+              "title": "Reducing Adapter",
+              "description": "Reducing Adapter kualitas premium untuk aplikasi industri."
+            },
+            "reducing-elbow": {
+              "title": "Reducing Elbow",
+              "description": "Reducing Elbow kualitas premium untuk aplikasi industri."
+            },
+            "round-head-plug-fitting": {
+              "title": "Round Head Plug Fitting",
+              "description": "Round Head Plug Fitting kualitas premium untuk aplikasi industri."
+            },
+            "square-head-plug-fitting": {
+              "title": "Square Head Plug Fitting",
+              "description": "Square Head Plug Fitting kualitas premium untuk aplikasi industri."
+            },
+            "stub-end": {
+              "title": "Stub End",
+              "description": "Stub End kualitas premium untuk aplikasi industri."
+            },
+            "union-bulkhead": {
+              "title": "Union Bulkhead",
+              "description": "Union Bulkhead kualitas premium untuk aplikasi industri."
+            },
+            "union-connector": {
+              "title": "Union Connector",
+              "description": "Union Connector kualitas premium untuk aplikasi industri."
+            },
+            "union-cross": {
+              "title": "Union Cross",
+              "description": "Union Cross kualitas premium untuk aplikasi industri."
+            },
+            "union-elbow": {
+              "title": "Union Elbow",
+              "description": "Union Elbow kualitas premium untuk aplikasi industri."
+            },
+            "union-reducer": {
+              "title": "Union Reducer",
+              "description": "Union Reducer kualitas premium untuk aplikasi industri."
+            },
+            "union-tee": {
+              "title": "Union Tee",
+              "description": "Union Tee kualitas premium untuk aplikasi industri."
+            }
+          }
+        },
+        "pipe": {
+          "title": "Pipa (Pipes)",
+          "materials": "Seamless, ERW, LSAW, SSAW",
+          "specifications": "API 5L, ASTM A106, ASTM A312",
+          "classRatings": "Semua Schedule",
+          "brands": "Spindo, Tenaris, Nippon Steel",
+          "types": {
+            "aluminium-pipe": {
+              "title": "Aluminium Pipe",
+              "description": "Aluminium Pipe kualitas premium untuk aplikasi industri."
+            },
+            "spiral-welded-pipe": {
+              "title": "Spiral Welded Pipe",
+              "description": "Spiral Welded Pipe kualitas premium untuk aplikasi industri."
+            },
+            "stainless-steel-pipe": {
+              "title": "Stainless Steel Pipe",
+              "description": "Stainless Steel Pipe kualitas premium untuk aplikasi industri."
+            },
+            "tubing": {
+              "title": "Tubing",
+              "description": "Tubing kualitas premium untuk aplikasi industri."
+            }
+          }
+        },
+        "besi": {
+          "title": "Bahan Besi & Baja",
+          "materials": "Carbon Steel, Baja Tarik Tinggi",
+          "specifications": "WF, H-Beam, Siku, Hollow, Plat, Beton",
+          "classRatings": "Standar SNI, JIS",
+          "brands": "Krakatau Steel, Gunung Garuda",
+          "types": {
+            "besi-beton-polos-ulir": {
+              "title": "Besi Beton Polos & Ulir",
+              "description": "Besi Beton Polos & Ulir kualitas premium untuk aplikasi industri."
+            },
+            "besi-hollow": {
+              "title": "Besi Hollow Struktural",
+              "description": "Besi Hollow Struktural kualitas premium untuk aplikasi industri."
+            },
+            "besi-siku": {
+              "title": "Besi Siku (Angle Steel)",
+              "description": "Besi Siku (Angle Steel) kualitas premium untuk aplikasi industri."
+            },
+            "besi-wide-flange-wf-": {
+              "title": "Besi Wide Flange (WF)",
+              "description": "Besi Wide Flange (WF) kualitas premium untuk aplikasi industri."
+            },
+            "cnp-dan-unp": {
+              "title": "Profil Kanal CNP & UNP",
+              "description": "Profil Kanal CNP & UNP kualitas premium untuk aplikasi industri."
+            },
+            "h-beam": {
+              "title": "H-Beam",
+              "description": "H-Beam kualitas premium untuk aplikasi industri."
+            },
+            "plat-strip": {
+              "title": "Plat Strip (Strip Plate)",
+              "description": "Plat Strip (Strip Plate) kualitas premium untuk aplikasi industri."
+            }
+          }
+        }
+      }
+    },
+    "detail": {
+      "materials": "Material",
+      "specifications": "Spesifikasi",
+      "classRatings": "Class Ratings",
+      "brands": "Merek",
+      "availableTypes": "Tipe yang Tersedia",
+      "itemsCount": "{{count}} item",
+      "noVariants": "Tidak ada varian khusus yang terdaftar untuk kategori ini."
+    },
+    "modal": {
+      "details": "Detail Produk",
+      "description": "Deskripsi",
+      "applications": "Aplikasi",
+      "materials": "Material",
+      "close": "Tutup"
+    }
+  },
+  "certifications": {
+    "hero": {
+      "subtitle": "Kredensial Kami",
+      "title": "Sertifikasi & Rekognisi",
+      "description": "Komitmen kami terhadap keselamatan, kepatuhan, dan keunggulan operasional tercermin melalui sertifikasi yang diakui dan kredensial industri di bidang konstruksi, energi, rekayasa, dan layanan industri."
+    },
+    "list": {
+      "view": "Lihat Sertifikat",
+      "preview": "Pratinjau dokumen sertifikasi resmi",
+      "close": "Tutup",
+      "reset": "Atur Ulang",
+      "items": {
+        "1": "Nomor Induk Berusaha (NIB)",
+        "2": "NPWP",
+        "3": "Surat Izin Usaha Perdagangan (SIUP)",
+        "4": "Izin Usaha Jasa Konstruksi",
+        "5": "Kamar Dagang dan Industri (KADIN)",
+        "6": "Registered Geothermal Vendor",
+        "7": "Sertifikat Vendor Elnusa",
+        "8": "Sertifikat Vendor Geodipa",
+        "9": "Sertifikat Vendor Perkebunan",
+        "10": "Sertifikat Vendor Pertamina",
+        "11": "Sertifikat Vendor PGN",
+        "12": "Sertifikat Vendor SKK Migas"
+      }
+    }
+  },
+  "clients": {
+    "title": "Klien & Mitra Kami",
+    "subtitle": "Dipercaya Oleh"
+  },
+  "cta": {
+    "home": {
+      "subtitle": "Siap Memulai Proyek Anda?",
+      "title": "Bermitralah Dengan Kami Untuk Ekspansi Industri Anda Berikutnya",
+      "description": "Untuk pertanyaan dan informasi lebih lanjut mengenai ketersediaan stokis kami, layanan EPC, atau pasokan umum, silakan hubungi tim profesional rekayasa kami.",
+      "buttonText": "Hubungi Kami Hari Ini"
+    },
+    "about": {
+      "subtitle": "Hubungi Kami",
+      "title": "Untuk Pertanyaan dan Informasi Lebih Lanjut, Hubungi Kami!",
+      "description": "",
+      "buttonText": "Hubungi Kami"
+    }
+  }
+}

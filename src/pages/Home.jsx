@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import { HeroSection } from '../components/sections/HeroSection';
 import { ServicesSection } from '../components/sections/ServicesSection';
 import { ProductsSection } from '../components/sections/ProductsSection';
@@ -8,11 +9,12 @@ import { ClientsSection } from '../components/sections/ClientsSection';
 import { CTASectionFinal } from '../components/sections/CTASectionFinal';
 
 export function Home() {
+  const { t } = useTranslation();
   return (
     <>
       <Helmet>
-        <title>PT. Yuritech Putra Perkasa | Industrial Stockist, Supplier & EPC Contractor</title>
-        <meta name="description" content="PT. Yuritech Putra Perkasa is a trusted industrial supplier, stockist, and EPC contractor since 2005. Supplying high-quality industrial valves, flanges, gaskets, fittings, pipes, and steel materials in Jakarta and across Indonesia." />
+        <title>{t('meta.home.title')}</title>
+        <meta name="description" content={t('meta.home.description')} />
         <link rel="canonical" href="https://yuritechpp.co.id/" />
       </Helmet>
       <HeroSection />

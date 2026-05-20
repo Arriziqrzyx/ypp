@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Container } from "../../ui/Container";
 import heroBg from '../../../assets/hero.png'; // Need to check path depth: src/components/sections/products -> ../../../assets/hero.png
 
 export function ProductsHeroSection() {
+  const { t } = useTranslation();
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-dark-bg pt-24 md:pt-0 pb-16 md:pb-0">
       {/* Full Background Image */}
@@ -32,7 +34,7 @@ export function ProductsHeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="flex items-center gap-2 mb-6 text-white/60 text-sm font-heading tracking-widest uppercase"
             >
-              <span className="text-white/70">Our Solutions</span>
+              <span className="text-white/70">{t('products.hero.subtitle')}</span>
             </motion.div>
 
             <div className="flex items-center gap-3 mb-6">
@@ -46,7 +48,7 @@ export function ProductsHeroSection() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-4xl font-heading font-extrabold text-white leading-[1.1] tracking-tight"
               >
-                Products & Materials
+                {t('products.hero.title')}
               </motion.h1>
             </div>
 
@@ -56,7 +58,7 @@ export function ProductsHeroSection() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-white/80 text-sm md:text-base lg:text-lg font-body max-w-xl leading-relaxed"
             >
-              We provide a comprehensive range of premium industrial components including valves, flanges, fittings, and instruments to support critical engineering operations worldwide.
+              {t('products.hero.description')}
             </motion.p>
           </div>
 
@@ -73,7 +75,7 @@ export function ProductsHeroSection() {
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-6 h-[2px] bg-industrial-blue" />
                   <h3 className="font-heading font-bold text-sm md:text-base text-white uppercase tracking-widest">
-                    Material Standard
+                    {t('products.hero.standard')}
                   </h3>
                 </div>
                 <p className="font-body text-white/70 leading-relaxed text-sm md:text-base pl-9">
@@ -86,7 +88,7 @@ export function ProductsHeroSection() {
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-6 h-[2px] bg-industrial-blue" />
                   <h3 className="font-heading font-bold text-sm md:text-base text-white uppercase tracking-widest">
-                    Material Specification
+                    {t('products.hero.specification')}
                   </h3>
                 </div>
                 <p className="font-body text-white/70 leading-relaxed text-sm md:text-base pl-9">

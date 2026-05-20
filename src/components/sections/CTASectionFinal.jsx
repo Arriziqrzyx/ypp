@@ -1,13 +1,22 @@
 import { Container } from '../ui/Container';
 import { Button } from '../ui/Button';
 import { AnimatedReveal } from '../animations/AnimatedReveal';
+import { WhatsAppIcon } from '../ui/WhatsAppIcon';
+import { useTranslation } from 'react-i18next';
 
 export function CTASectionFinal({
-  subtitle = "Ready to Start Your Project?",
-  title = "Partner With Us For Your Next Industrial Expansion",
-  description = "For inquiries and further information regarding our stockist availability, EPC services, or general supplies, reach out to our team of engineering professionals.",
-  buttonText = "Contact Us Today"
+  subtitle,
+  title,
+  description,
+  buttonText
 }) {
+  const { t } = useTranslation();
+
+  const activeSubtitle = subtitle || t('cta.home.subtitle');
+  const activeTitle = title || t('cta.home.title');
+  const activeDescription = description || t('cta.home.description');
+  const activeButtonText = buttonText || t('cta.home.buttonText');
+
   return (
     <section className="relative py-20 md:py-32 lg:py-48 overflow-hidden bg-dark-bg">
       {/* Background Image & Overlay */}
@@ -30,7 +39,7 @@ export function CTASectionFinal({
                 <div className="w-3 h-[2px] bg-primary-red ml-1" />
               </div>
               <span className="inline-block uppercase tracking-[0.3em] text-industrial-blue text-sm font-bold">
-                {subtitle}
+                {activeSubtitle}
               </span>
               <div className="flex items-center">
                 <div className="w-3 h-[2px] bg-primary-red mr-1" />
@@ -41,20 +50,21 @@ export function CTASectionFinal({
 
           <AnimatedReveal delay={0.2}>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold text-white tracking-tighter uppercase leading-tight mb-6 md:mb-8">
-              {title}
+              {activeTitle}
             </h2>
           </AnimatedReveal>
 
           <AnimatedReveal delay={0.4}>
             <p className="text-white/70 text-base md:text-lg lg:text-xl mb-8 md:mb-12 leading-relaxed max-w-2xl mx-auto font-body">
-              {description}
+              {activeDescription}
             </p>
           </AnimatedReveal>
 
           <AnimatedReveal delay={0.6}>
-            <a href="https://wa.me/6282125597520" target="_blank" rel="noreferrer">
-              <Button variant="primary" className="px-10 py-5 text-base hover:scale-105 bg-primary-red hover:bg-primary-red/90 border-primary-red">
-                {buttonText}
+            <a href="https://wa.me/6282125597520" target="_blank" rel="noreferrer" className="inline-block">
+              <Button variant="primary" className="px-10 py-5 text-base hover:scale-105 bg-primary-red hover:bg-industrial-blue border-primary-red hover:border-industrial-blue flex items-center justify-center gap-3">
+                <WhatsAppIcon className="w-5 h-5" />
+                {activeButtonText}
               </Button>
             </a>
           </AnimatedReveal>

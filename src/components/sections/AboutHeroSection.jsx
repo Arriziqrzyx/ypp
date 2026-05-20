@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion';
 import { Container } from '../ui/Container';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import heroBg from '../../assets/hero.png';
 import logo from '../../assets/ypp_white.png';
 
 export function AboutHeroSection() {
+  const { t } = useTranslation();
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-dark-bg pt-24 md:pt-0">
       {/* Full Background Image */}
@@ -34,7 +36,7 @@ export function AboutHeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="flex items-center gap-2 mb-6 text-white/60 text-sm font-heading tracking-widest uppercase"
             >
-              <span className="text-white/70">About Us</span>
+              <span className="text-white/70">{t('about.hero.subtitle')}</span>
             </motion.div>
 
             <div className="flex items-center gap-3 mb-6">
@@ -48,7 +50,7 @@ export function AboutHeroSection() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-heading font-extrabold text-white leading-[1.1]"
               >
-                Company Overview
+                {t('about.hero.title')}
               </motion.h1>
             </div>
 
@@ -58,7 +60,7 @@ export function AboutHeroSection() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-white/80 text-sm md:text-base lg:text-lg font-body max-w-2xl leading-relaxed"
             >
-              PT. YURITECH PUTRA PERKASA was incorporated on Jakarta established since year on 2005 as an Stockiest, Supplier, Trading & EPC Contractor / Construction Services. We fulfill any rapid development of diversed modern industries.
+              {t('about.hero.description')}
             </motion.p>
           </div>
 

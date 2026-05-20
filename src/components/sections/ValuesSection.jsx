@@ -1,38 +1,35 @@
 import { Container } from '../ui/Container';
 import { AnimatedReveal } from '../animations/AnimatedReveal';
+import { useTranslation } from 'react-i18next';
 import { Shield, Users, Zap, TrendingUp, Award, Clock } from 'lucide-react';
 
 export function ValuesSection() {
+  const { t } = useTranslation();
+  
   const values = [
     {
-      icon: <Award size={28} strokeWidth={2} />,
-      title: 'Uncompromising Quality',
-      desc: 'We source and deliver only the highest grade materials, ensuring unmatched durability and safety.'
+      key: 'quality',
+      icon: <Award size={28} strokeWidth={2} />
     },
     {
-      icon: <Users size={28} strokeWidth={2} />,
-      title: 'Customer Obsession',
-      desc: 'Your success is our priority. We are committed to prompt delivery and exceeding expectations at every turn.'
+      key: 'customer',
+      icon: <Users size={28} strokeWidth={2} />
     },
     {
-      icon: <Zap size={28} strokeWidth={2} />,
-      title: 'Agile Execution',
-      desc: 'In a fast-paced industry, we adapt quickly to resolve complex supply chain issues and emergency needs.'
+      key: 'agile',
+      icon: <Zap size={28} strokeWidth={2} />
     },
     {
-      icon: <Shield size={28} strokeWidth={2} />,
-      title: 'Integrity & Trust',
-      desc: 'We build lasting partnerships through radical transparency, competitive pricing, and unwavering reliability.'
+      key: 'integrity',
+      icon: <Shield size={28} strokeWidth={2} />
     },
     {
-      icon: <Clock size={28} strokeWidth={2} />,
-      title: 'Operational Excellence',
-      desc: 'Driven by expertise, our highly trained professionals execute complex construction services flawlessly.'
+      key: 'operational',
+      icon: <Clock size={28} strokeWidth={2} />
     },
     {
-      icon: <TrendingUp size={28} strokeWidth={2} />,
-      title: 'Sustainable Growth',
-      desc: 'Dedicated to driving economic progress and improving national living standards through responsible practices.'
+      key: 'growth',
+      icon: <TrendingUp size={28} strokeWidth={2} />
     }
   ];
 
@@ -50,20 +47,20 @@ export function ValuesSection() {
                   <div className="w-3 h-[2px] bg-primary-red ml-1" />
                 </div>
                 <h2 className="text-sm font-heading font-bold uppercase tracking-[0.3em] text-industrial-blue">
-                  Our Values
+                  {t('about.values.subtitle')}
                 </h2>
               </div>
             </AnimatedReveal>
 
             <AnimatedReveal delay={0.2}>
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-dark-bg leading-tight mb-6">
-                The principles that drive our success.
+                {t('about.values.title')}
               </h3>
             </AnimatedReveal>
 
             <AnimatedReveal delay={0.3}>
               <p className="text-base md:text-lg text-dark-bg/70 font-body leading-relaxed">
-                We don't just supply materials; we deliver excellence. Our values are the DNA of our company, guiding every decision, partnership, and project we undertake.
+                {t('about.values.desc')}
               </p>
             </AnimatedReveal>
           </div>
@@ -82,10 +79,10 @@ export function ValuesSection() {
                         {value.icon}
                       </div>
                       <h3 className="text-xl font-heading font-bold text-dark-bg mb-3 group-hover:text-industrial-blue transition-colors duration-300">
-                        {value.title}
+                        {t(`about.values.items.${value.key}.title`)}
                       </h3>
                       <p className="text-dark-bg/60 font-body leading-relaxed">
-                        {value.desc}
+                        {t(`about.values.items.${value.key}.desc`)}
                       </p>
                     </div>
                   </div>

@@ -5,6 +5,9 @@ import { Menu, X, ArrowUpRight } from "lucide-react";
 import { cn } from "../../utils/cn";
 import { Container } from "../ui/Container";
 import logo from "../../assets/logo.png";
+import { WhatsAppIcon } from "../ui/WhatsAppIcon";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "../ui/LanguageSwitcher";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,11 +44,13 @@ export function Navbar() {
   }, [location.pathname]);
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about-us" },
-    { name: "Projects", href: "/projects" },
-    { name: "Products", href: "/products" },
+    { key: "home", href: "/" },
+    { key: "about", href: "/about-us" },
+    { key: "projects", href: "/projects" },
+    { key: "products", href: "/products" },
   ];
+
+  const { t } = useTranslation();
 
   return (
     <>
@@ -68,13 +73,45 @@ export function Navbar() {
               border-dark-bg/8
               shadow-[0_6px_30px_rgba(0,0,0,0.04)]
             `
-            : "bg-transparent"
+            : "bg-transparent",
         )}
       >
         <Container>
           <div className="h-[82px] md:h-[88px] flex items-center justify-between">
             {/* LOGO */}
-            <Link to="/" className="flex items-center gap-3 group z-50" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} > <img src={logo} alt="Yuritech Putra Perkasa" className="h-10 w-auto object-contain" /> <div className="flex flex-col"> <span className={cn("font-heading font-bold text-2xl tracking-[0.05em] uppercase leading-none transition-colors duration-300", isScrolled ? "text-dark-bg" : "text-white")}> Yuritech </span> <span className={cn("font-heading font-semibold text-xs tracking-[0.2em] uppercase mt-1 transition-colors duration-300", isScrolled ? "text-industrial-blue" : "text-white/80")}> Putra Perkasa </span> </div> </Link>
+            <Link
+              to="/"
+              className="flex items-center gap-3 group z-50"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
+              {" "}
+              <img
+                src={logo}
+                alt="Yuritech Putra Perkasa"
+                className="h-10 w-auto object-contain"
+              />{" "}
+              <div className="flex flex-col">
+                {" "}
+                <span
+                  className={cn(
+                    "font-heading font-bold text-2xl tracking-[0.05em] uppercase leading-none transition-colors duration-300",
+                    isScrolled ? "text-dark-bg" : "text-white",
+                  )}
+                >
+                  {" "}
+                  Yuritech{" "}
+                </span>{" "}
+                <span
+                  className={cn(
+                    "font-heading font-semibold text-xs tracking-[0.2em] uppercase mt-1 transition-colors duration-300",
+                    isScrolled ? "text-industrial-blue" : "text-white/80",
+                  )}
+                >
+                  {" "}
+                  Putra Perkasa{" "}
+                </span>{" "}
+              </div>{" "}
+            </Link>
 
             {/* DESKTOP NAV */}
             <nav className="hidden lg:flex items-center gap-8">
@@ -83,7 +120,7 @@ export function Navbar() {
 
                 return (
                   <Link
-                    key={link.name}
+                    key={link.key}
                     to={link.href}
                     className={cn(
                       `
@@ -101,10 +138,10 @@ export function Navbar() {
                         ? "text-industrial-blue"
                         : isScrolled
                           ? "text-dark-bg hover:text-industrial-blue"
-                          : "text-white hover:text-industrial-blue"
+                          : "text-white hover:text-industrial-blue",
                     )}
                   >
-                    {link.name}
+                    {t(`nav.${link.key}`)}
 
                     <span
                       className={cn(
@@ -119,7 +156,7 @@ export function Navbar() {
                           duration-300
                           group-hover:w-full
                         `,
-                        isActive ? "w-full" : "w-0"
+                        isActive ? "w-full" : "w-0",
                       )}
                     />
                   </Link>
@@ -129,13 +166,17 @@ export function Navbar() {
               <div
                 className={cn(
                   "h-5 w-px mx-1",
-                  isScrolled ? "bg-dark-bg/10" : "bg-white/20"
+                  isScrolled ? "bg-dark-bg/10" : "bg-white/20",
                 )}
               />
+
+              <LanguageSwitcher />
 
               {/* CTA */}
               <a
                 href="https://wa.me/6282125597520"
+                target="_blank"
+                rel="noreferrer"
                 className="
                   inline-flex
                   items-center
@@ -152,13 +193,13 @@ export function Navbar() {
                   tracking-[0.16em]
                   transition-all
                   duration-300
-                  hover:bg-dark-bg
+                  hover:bg-industrial-blue
                   hover:-translate-y-[1px]
                   shadow-[0_8px_24px_rgba(0,0,0,0.08)]
                 "
               >
-                Contact Us
-                <ArrowUpRight size={14} />
+                <WhatsAppIcon className="w-4 h-4" />
+                {t("nav.contact")}
               </a>
             </nav>
 
@@ -192,7 +233,7 @@ export function Navbar() {
                     border-white/10
                     text-white
                     backdrop-blur-md
-                  `
+                  `,
               )}
             >
               <AnimatePresence mode="wait">
@@ -273,12 +314,11 @@ export function Navbar() {
                     {/* nav links */}
                     <nav className="flex flex-col">
                       {navLinks.map((link, i) => {
-                        const isActive =
-                          location.pathname === link.href;
+                        const isActive = location.pathname === link.href;
 
                         return (
                           <motion.div
-                            key={link.name}
+                            key={link.key}
                             initial={{ opacity: 0, y: 16 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: 10 }}
@@ -289,9 +329,7 @@ export function Navbar() {
                           >
                             <Link
                               to={link.href}
-                              onClick={() =>
-                                setMobileMenuOpen(false)
-                              }
+                              onClick={() => setMobileMenuOpen(false)}
                               className={cn(
                                 `
                                   group
@@ -306,7 +344,7 @@ export function Navbar() {
                                 `,
                                 isActive
                                   ? "text-industrial-blue"
-                                  : "text-dark-bg"
+                                  : "text-dark-bg",
                               )}
                             >
                               <div>
@@ -320,7 +358,7 @@ export function Navbar() {
                                     md:text-[1.05rem]
                                   "
                                 >
-                                  {link.name}
+                                  {t(`nav.${link.key}`)}
                                 </p>
                               </div>
 
@@ -338,6 +376,10 @@ export function Navbar() {
                           </motion.div>
                         );
                       })}
+
+                      <div className="pt-4">
+                        <LanguageSwitcher />
+                      </div>
                     </nav>
 
                     {/* CTA */}
@@ -352,9 +394,9 @@ export function Navbar() {
                     >
                       <a
                         href="https://wa.me/6282125597520"
-                        onClick={() =>
-                          setMobileMenuOpen(false)
-                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        onClick={() => setMobileMenuOpen(false)}
                         className="
                           w-full
                           h-[54px]
@@ -372,12 +414,12 @@ export function Navbar() {
                           text-[12px]
                           transition-all
                           duration-300
-                          hover:bg-dark-bg
+                          hover:bg-industrial-blue
                           shadow-[0_14px_30px_rgba(0,0,0,0.12)]
                         "
                       >
-                        Contact Us
-                        <ArrowUpRight size={16} />
+                        <WhatsAppIcon className="w-4 h-4" />
+                        {t("nav.contact")}
                       </a>
                     </motion.div>
                   </div>

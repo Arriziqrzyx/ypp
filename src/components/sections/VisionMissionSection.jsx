@@ -1,8 +1,10 @@
 import { Container } from '../ui/Container';
 import { AnimatedReveal } from '../animations/AnimatedReveal';
+import { useTranslation } from 'react-i18next';
 import logo from '../../assets/logo.png';
 
 export function VisionMissionSection() {
+  const { t } = useTranslation();
   return (
     <section className="py-16 md:py-24 lg:py-32 bg-off-white relative overflow-hidden">
       {/* Industrial watermark accents */}
@@ -33,14 +35,14 @@ export function VisionMissionSection() {
                   <div className="w-3 h-[2px] bg-primary-red ml-1" />
                 </div>
                 <h2 className="text-sm font-heading font-bold uppercase tracking-[0.3em] text-industrial-blue">
-                  Our Vision
+                  {t('about.vision.subtitle')}
                 </h2>
               </div>
             </AnimatedReveal>
 
             <AnimatedReveal delay={0.2}>
               <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-dark-bg leading-tight mb-6">
-                Delivering Trusted Local Content Solutions for Indonesia’s Geothermal, Oil & Gas, Power, Manufacturing, and Industrial Sectors.
+                {t('about.vision.desc')}
               </p>
             </AnimatedReveal>
           </div>
@@ -54,7 +56,7 @@ export function VisionMissionSection() {
                   <div className="w-3 h-[2px] bg-primary-red ml-1" />
                 </div>
                 <h2 className="text-sm font-heading font-bold uppercase tracking-[0.3em] text-industrial-blue">
-                  Our Mission
+                  {t('about.mission.subtitle')}
                 </h2>
               </div>
             </AnimatedReveal>
@@ -64,19 +66,19 @@ export function VisionMissionSection() {
                 <li className="flex gap-6">
                   <span className="font-heading font-bold text-4xl text-primary-red/20 leading-none">01</span>
                   <p className="text-base md:text-lg text-dark-bg/80 font-body leading-relaxed pt-1">
-                    To deliver high-quality EPC (Engineering, Procurement, and Construction) services that meet client expectations.
+                    {t('about.mission.m1')}
                   </p>
                 </li>
                 <li className="flex gap-6">
                   <span className="font-heading font-bold text-4xl text-primary-red/20 leading-none">02</span>
                   <p className="text-base md:text-lg text-dark-bg/80 font-body leading-relaxed pt-1">
-                    To prioritize safety, efficiency, and sustainability in every project we undertake.
+                    {t('about.mission.m2')}
                   </p>
                 </li>
                 <li className="flex gap-6">
                   <span className="font-heading font-bold text-4xl text-primary-red/20 leading-none">03</span>
                   <p className="text-base md:text-lg text-dark-bg/80 font-body leading-relaxed pt-1">
-                    To foster a culture of continuous improvement, innovation, and professional growth for all employees.
+                    {t('about.mission.m3')}
                   </p>
                 </li>
               </ul>

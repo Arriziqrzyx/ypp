@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import { Container } from "../components/ui/Container";
 import { ProductsHeroSection } from "../components/sections/products/ProductsHeroSection";
 import { ProductCategoriesSection } from "../components/sections/products/ProductCategoriesSection";
@@ -9,6 +10,7 @@ import { ProductModal } from "../components/ui/ProductModal";
 import { productCategories } from "../data/productsData";
 
 export function Products() {
+  const { t } = useTranslation();
   const location = useLocation();
   const initialCategoryId = location.state?.activeCategoryId || productCategories[0]?.id;
   
@@ -43,8 +45,8 @@ export function Products() {
   return (
     <main className="min-h-screen bg-off-white">
       <Helmet>
-        <title>Industrial Products & Materials | PT. Yuritech Putra Perkasa</title>
-        <meta name="description" content="Browse our wide range of premium industrial products: valves, flanges, gaskets, fittings, pipes, structural iron, steel, instrumentation, and stud bolts from leading international brands." />
+        <title>{t('meta.products.title')}</title>
+        <meta name="description" content={t('meta.products.description')} />
         <link rel="canonical" href="https://yuritechpp.co.id/products" />
       </Helmet>
       <ProductsHeroSection />
