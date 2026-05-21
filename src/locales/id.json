@@ -591,12 +591,13 @@
         "4": "Izin Usaha Jasa Konstruksi",
         "5": "Kamar Dagang dan Industri (KADIN)",
         "6": "Registered Geothermal Vendor",
-        "7": "Sertifikat Vendor Elnusa",
-        "8": "Sertifikat Vendor Geodipa",
-        "9": "Sertifikat Vendor Perkebunan",
-        "10": "Sertifikat Vendor Pertamina",
-        "11": "Sertifikat Vendor PGN",
-        "12": "Sertifikat Vendor SKK Migas"
+        "7": "CSMS PLN",
+        "8": "Sertifikat Vendor Elnusa",
+        "9": "Sertifikat Vendor Geodipa",
+        "10": "Sertifikat Vendor Perkebunan",
+        "11": "Sertifikat Vendor Pertamina",
+        "12": "Sertifikat Vendor PGN",
+        "13": "Sertifikat Vendor SKK Migas"
       }
     }
   },
@@ -606,7 +607,7 @@
   },
   "cta": {
     "home": {
-      "subtitle": "Siap Memulai Proyek Anda?",
+      "subtitle": "Siap Membangun Bersama Kami?",
       "title": "Bermitralah Dengan Kami Untuk Ekspansi Industri Anda Berikutnya",
       "description": "Untuk pertanyaan dan informasi lebih lanjut mengenai ketersediaan stokis kami, layanan EPC, atau pasokan umum, silakan hubungi tim profesional rekayasa kami.",
       "buttonText": "Hubungi Kami Hari Ini"

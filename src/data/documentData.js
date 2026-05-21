@@ -10,6 +10,7 @@ import sertifikatPertamina from '../assets/LegalDocuments/sertifikat_pertmina.pn
 import sertifikatPgn from '../assets/LegalDocuments/sertifikat_pgn.png';
 import sertifikatSkkmigas from '../assets/LegalDocuments/sertifikat_skkmigas.png';
 import siup from '../assets/LegalDocuments/siup.png';
+import csms from '../assets/LegalDocuments/sertifikat_csms_pln.png';
 
 export const legalDocuments = [
   {
@@ -44,31 +45,36 @@ export const legalDocuments = [
   },
   {
     id: 7,
+    title: 'CSMS PLN',
+    img: csms,
+  },
+  {
+    id: 8,
     title: 'Sertifikat Vendor Elnusa',
     img: sertifikatElnusa,
   },
   {
-    id: 8,
+    id: 9,
     title: 'Sertifikat Vendor Geodipa',
     img: sertifikatGeodipa,
   },
   {
-    id: 9,
+    id: 10,
     title: 'Sertifikat Vendor Perkebunan',
     img: sertifikatPerkebunan,
   },
   {
-    id: 10,
+    id: 11,
     title: 'Sertifikat Vendor Pertamina',
     img: sertifikatPertamina,
   },
   {
-    id: 11,
+    id: 12,
     title: 'Sertifikat Vendor PGN',
     img: sertifikatPgn,
   },
   {
-    id: 12,
+    id: 13,
     title: 'Sertifikat Vendor SKK Migas',
     img: sertifikatSkkmigas,
   },
