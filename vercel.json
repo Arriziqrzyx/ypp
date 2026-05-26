@@ -26,6 +26,16 @@
       "permanent": true
     },
     {
+      "source": "/fitting/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/fittings/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
       "source": "/flange/:path*",
       "destination": "/products",
       "permanent": true

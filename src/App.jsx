@@ -7,6 +7,7 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Products } from './pages/Products';
 import { Projects } from './pages/Projects';
+import { NotFound } from './pages/NotFound';
 import { Preloader } from './components/ui/Preloader';
 import { Analytics } from "@vercel/analytics/react";
 
@@ -35,8 +36,8 @@ function App() {
             <Route path="/about-us" element={<About />} />
             <Route path="/products" element={<Products />} />
             <Route path="/projects" element={<Projects />} />
-            {/* Wildcard Fallback Redirect */}
-            <Route path="*" element={<Navigate to="/" replace />} />
+            {/* Wildcard Fallback Route for 404 Not Found */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
         <Analytics />
